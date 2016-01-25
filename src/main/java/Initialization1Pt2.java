@@ -27,7 +27,8 @@ class ColorfulThing {
 
 public class Initialization1Pt2 {
     public static void main(String[] args) {
-        ColorfulThing colorThing = new ColorfulThing(ColorfulThing.Color.RED); // call object type.enumname.enumvalue
+        // call object type.enumname.enumvalue inside the constructor
+        ColorfulThing colorThing = new ColorfulThing(ColorfulThing.Color.RED);
         System.out.println(colorThing.getColor()); //call getColor method on colorThing object
     }
 }
