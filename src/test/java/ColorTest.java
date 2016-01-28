@@ -1,5 +1,4 @@
 import static junit.framework.TestCase.assertEquals;
-import static org.junit.Test.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,6 +13,6 @@ public class ColorTest {
     }
     @Test
     public void getColorTest(){
-        assertEquals("Assert that the color input is the same as color output","RED",colorTest.getColor());
+        assertEquals("Assert that the color will be red.","RED",colorTest.getColor());
     }
 }
